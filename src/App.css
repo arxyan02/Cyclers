@@ -1,56 +1,128 @@
 .App{
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 .Cycler{
-    margin-top: 4%;
-    width: 100%;
-    display: flex;
+    margin-left: 30%;
+    width: 50%;
     z-index: 0;
-} 
+    margin-top: 3%;
+}
 .Bike{
-    height: 500px;
-    margin-left: 50%;
-    z-index: 1;
+    height: 520px;
 }
 .Topbar{
     height: 40px;
     display: flex;
+    justify-content: space-between;
 }
 .Topbuttons{
-    height: 150%;
-    width: 70%;
+    width:50%;
     padding-top: 0.5%;
-    justify-content: space-evenly;
-    margin-left: 30%;
+    align-content: space-evenly;
+    height: fit-content;
 }
 .Logo{
     height: 70px;
 }
-.Cyclersbutton{
-    background-color: white;
-    border: 0;
-    width: 20%;
-    border-radius: 50%;
-}
-.Workingbutton{
-    background-color: white;
-    border: 0;
-    width: 20%;
-    margin-left: 5%;
-    border-radius: 50%;
-}
+
 .Helpbutton{
     background-color: white;
     border: 0;
     width: 20%;
     margin-left: 5%;
-    border-radius: 50%;
+    border-radius: 25%; 
+}
+.Helpbutton:hover{
+    cursor: pointer;
+    background-color: rgb(155, 145, 145);
+}
+.Helpbutton:active{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.Cyclersbutton{
+    background-color: white;
+    border: 0;
+    width: 20%;
+    border-radius: 25%; 
+}
+.Cyclersbutton:hover{
+    cursor: pointer;
+    background-color: rgb(155, 145, 145);
+}
+.Cyclersbutton:active{
+    cursor: pointer;
+    background-color: whitesmoke;
 }
 .Explorebutton{
     background-color: white;
     border: 0;
     width: 20%;
     margin-left: 5%;
-    border-radius: 20%;
+    border-radius: 25%; 
+}
+.Explorebutton:hover{
+    cursor: pointer;
+    background-color: rgb(155, 145, 145);
+}
+.Explorebutton:active{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.Workingbutton{
+    background-color: white;
+    border: 0;
+    width: 20%;
+    margin-left: 5%;
+    border-radius: 25%; 
+}
+.Workingbutton:hover{
+    cursor: pointer;
+    background-color: rgb(155, 145, 145);
+}
+.Workingbutton:active{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.Bottomleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.MainPage{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    margin-right: auto;
+
+}
+.BottomRight{
+    margin-left: 20%;
+}
+.HeadText{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.SubText{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: -1.5rem;
+}
+.Bottomlogos{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: space-between;
+}
+.Location{
+    align-items: center;
+}
+.Calendar{
+    align-items: center;
 }
